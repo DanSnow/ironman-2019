@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 goblin = { version = "0.0.24", default-features = false, features = ["std", "elf32", "elf64", "endian_fd"] }
-nix = "0.15.0"
+nix = "0.20.2"
 dlopen = "0.1.8"
 once_cell = "1.1.0"
